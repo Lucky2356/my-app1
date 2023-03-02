@@ -1,28 +1,16 @@
 import React from 'react';
 import './App.css';
-import HelloWorld from "./components/HelloWorld";
-import Name from "./components/Name";
+import MyName from "./components/MyName/MyName";
+import Counter from "./components/Counter/Counter";
+import ToDoList from "./components/ToDoList/ToDoList";
 
 
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <HelloWorld></HelloWorld>
-                <Name></Name>
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            {/*<Counter/>*/}
+            <ToDoList/>
         </div>
     );
 }
